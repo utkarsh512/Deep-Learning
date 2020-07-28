@@ -24,3 +24,5 @@ LR_predictions = clf.predict(X.T)
 print ('Accuracy of logistic regression: %d ' % float((np.dot(Y,LR_predictions) + np.dot(1-Y,1-LR_predictions))/float(Y.size)*100) +
        '% ' + "(percentage of correctly labelled datapoints)")
 ```
+#### Note
+However, the problem stated above requires neural nets with hidden layers to be solved optimally. In case of LR, the test accuracy will not be that good.
