@@ -24,5 +24,14 @@ LR_predictions = clf.predict(X.T)
 print ('Accuracy of logistic regression: %d ' % float((np.dot(Y,LR_predictions) + np.dot(1-Y,1-LR_predictions))/float(Y.size)*100) +
        '% ' + "(percentage of correctly labelled datapoints)")
 ```
-#### Note
-However, the problem stated above requires neural nets with hidden layers to be solved optimally. In case of LR, the test accuracy will not be that good. You can see the difference between the output of LR and neural net in `Flower/` directory.
+## Comparision with Deep Neural Nets
+It is obvious that deep neural nets perform better than logistic regression. Here is the result I obtained.
+* Original Image
+* * ![image info](./images/data.JPG)
+
+* Results obtained with logisitic regression 
+* * ![image info](./images/lr.JPG)
+
+* Results obtained with deep neural net 
+* * ![image info](./images/nn.JPG)
+   
