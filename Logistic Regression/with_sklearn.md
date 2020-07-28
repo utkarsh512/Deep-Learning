@@ -25,4 +25,4 @@ print ('Accuracy of logistic regression: %d ' % float((np.dot(Y,LR_predictions) 
        '% ' + "(percentage of correctly labelled datapoints)")
 ```
 #### Note
-However, the problem stated above requires neural nets with hidden layers to be solved optimally. In case of LR, the test accuracy will not be that good.
+However, the problem stated above requires neural nets with hidden layers to be solved optimally. In case of LR, the test accuracy will not be that good. You can see the difference between the output of LR and neural net in `Flower/` directory.
